@@ -250,7 +250,7 @@ h1 {
 	margin-right: auto;
 }
 
-.mySlides {
+.slides_image {
 	display: none;
 }
 
@@ -265,7 +265,7 @@ img {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.slides_dot {
   height: 15px;
   width: 15px;
   margin: 0 2px;
