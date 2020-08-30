@@ -160,11 +160,11 @@ h1 {
 
 .leading_text_title {
 	width: 30%;
-	min-width: 420px;
+	min-width: 450px;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	text-align: left;
-	padding-left: 20px;
+	padding-left: 50px;
 	float: left;
 	position: relative;
 }
@@ -173,6 +173,10 @@ h1 {
 	height: 50%;
 	width: 95%;
 	padding-top: 1em;
+}
+
+.leading_text_content p {
+	padding-bottom: 2em;
 }
 
 .custom_button {
@@ -185,6 +189,12 @@ h1 {
 	font-size: 20px;
 	text-decoration: none;
 	font-weight: bold;
+	transition: 0.5s;
+}
+
+.custom_button:hover {
+	color: rgb(3,2,41);
+	border-color: rgb(3,2,41);
 }
 
 .contents {
@@ -227,9 +237,11 @@ h1 {
 
 .social_feed_container {
 	width: 48%;
-	height: 490px;
+	height: auto;
 	float: right;
 	text-align: center;
+	padding: 10px;
+	border: 2px solid;
 }
 
 .news_slider {
@@ -283,4 +295,20 @@ img {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.social_feed {
+	width: 100%;
+}
+
+.LI-profile-badge {
+	width: 45%;
+	float: left;
+}
+
+.github-widget {
+	width: 45%;
+	height: 408px;
+	min-width: 290px;
+	float: right;
 }
