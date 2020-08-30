@@ -1,2 +1,2 @@
 # school-website
-A sample or a modern school website.
+A sample for a modern school website.
