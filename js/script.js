@@ -5,7 +5,9 @@ var userInterfaceController = (function(){
 	
 	var DOMstrings = {
 		slidesImage: ('.slides_image'),
-		slidesDot: ('.slides_dot')
+		slidesDot: ('.slides_dot'),
+		dropdownButton: ('.dropdown_button'),
+		dropdownContent: ('.dropdown_content')
 	}
 	
 	return {
@@ -48,7 +50,6 @@ var controller = (function(UIctrl){
 	
 	return {
 		init: function() {
-			console.log('Application has started.');
 			UIctrl.slideShow();
 		}
 	}
