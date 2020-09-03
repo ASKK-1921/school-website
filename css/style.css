@@ -125,6 +125,26 @@ h2 {
 	position: absolute;
 }
 
+.header_image_about {
+	padding: 0;
+	height: 300px;
+	overflow: hidden;
+	z-index: -1;
+	position: relative;
+	border-bottom: 5px solid darkgoldenrod;
+	background-image: url("../img/about/about_header.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+.header_text_container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+
 .featurette {
 	padding: 0;
 	color: white;
@@ -135,7 +155,7 @@ h2 {
 	border-bottom: 5px solid darkgoldenrod;
 }
 
-.homepage_video_text {
+.homepage_video_text, .header_image_text {
 	background: rgba(0,0,0,0.6);
 	color: #FFF;
 	width: 100%;
@@ -145,7 +165,7 @@ h2 {
 	position: absolute;
 }
 
-.text_container {
+.video_text_container {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -300,4 +320,8 @@ img {
 	.row, .navbar {
 		flex-direction: column;
 	}
+}
+.principal_picture {
+	width: 80%;
+	height: auto;
 }
