@@ -276,6 +276,29 @@ img {
   transform: scale(1.1);
 }
 
+.principal_picture {
+	width: 80%;
+	height: auto;
+}
+
+.school_details {
+	width: 100%;
+	vertical-align: top;
+}
+
+.school_details i {
+	font-size: 1.5em;
+	color: darkgoldenrod;
+}
+
+.school_details td {
+	vertical-align: top;
+	padding: 10px;
+}
+
+.school_details h2 {
+	margin-top: 0;
+}
 
 /* FOOTER */
 .footer {
@@ -321,7 +344,7 @@ img {
 		flex-direction: column;
 	}
 }
-.principal_picture {
-	width: 80%;
-	height: auto;
+.school_image_container {
+	width: 100%;
+	text-align: center;
 }
