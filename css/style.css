@@ -1,8 +1,6 @@
 /* CSS Document */
 
 /* IMPORT ADDITIONAL SHEETS */
-@import "responsive.css";
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
 
 
@@ -13,6 +11,7 @@ box-sizing: border-box;
 
 body {
 	font-family: 'Ubuntu', sans-serif;
+	font-display: swap;
 	margin: 0;
 }
 
@@ -70,7 +69,7 @@ h2 {
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: white;
+	color: inherit;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
@@ -79,6 +78,7 @@ h2 {
 
 .nav_menu a:hover, .nav_menu_item:hover, .dropdown_button {
 	background-color: rgb(3,2,41);
+	color: white;
 }
 
 .dropdown_content {
@@ -186,7 +186,7 @@ h2 {
 	color: rgb(226, 178, 58);
 	border-radius: 6px;
 	border-color: rgb(226, 178, 58);
-	background-color: aliceblue;
+	background-color: rgb(3,2,41);
 	padding: 2px 6px;
 	border: 1px solid;
 	font-size: 20px;
@@ -196,8 +196,7 @@ h2 {
 }
 
 .custom_button:hover {
-	color: rgb(3,2,41);
-	border-color: rgb(3,2,41);
+	color: #FFF;
 }
 
 .line {
