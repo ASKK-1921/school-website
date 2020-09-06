@@ -204,8 +204,8 @@ h2 {
 	height: 3px;
 	position: absolute;
 	background-color: darkblue;
-	border-radius: 10px;
 	transform: translateX(-50%);
+	margin-top: 10px;
 }
 
 .section_title {
@@ -346,4 +346,11 @@ img {
 .school_image_container {
 	width: 100%;
 	text-align: center;
+}
+
+.curriculum_image_container {
+	width: 80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
